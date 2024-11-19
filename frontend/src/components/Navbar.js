@@ -7,7 +7,7 @@ const Navbar= () => {
                 <Link to="/">
                 <h1>Workout Buddy</h1>
                 </Link>
-                <Link to="/">
+                <Link to="https://www.google.com">
                 <h1>Home</h1>
                 </Link>
             </div>
