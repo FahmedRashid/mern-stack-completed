@@ -7,7 +7,6 @@ const getWorkouts= async(req,res)=>{
 
     res.status(200).json(workouts)
 }
-
 // get a single workout
 const getWorkout = async(req, res) => {
     const {id} = req.params 
@@ -21,7 +20,6 @@ const getWorkout = async(req, res) => {
     }
     res.status(200).json(workout)
 }
-
 // create new workout
 const createWorkout = async(req, res) =>{
     const{title, load, reps} = req.body
@@ -47,7 +45,6 @@ const createWorkout = async(req, res) =>{
         res.status(400).json({error: error.message})
     }
 }
-
 // delete a workout
  const deleteWorkout = async(req, res) => {
     const {id} = req.params 
@@ -60,7 +57,6 @@ const createWorkout = async(req, res) =>{
     }
     res.status(200).json(workout)
  }
-
 // update a workout
 const updateWorkout = async(req, res) =>{
     const {id} = req.params; 
