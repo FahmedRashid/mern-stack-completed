@@ -13,6 +13,11 @@ const userSchema = new Schema({
         required: true
     }
 })
+// static login method
+userSchema.statics.login = async function (email, password) {
+    
+}
+
 
 // static signup method
 userSchema.statics.signup = async function (email, password){
