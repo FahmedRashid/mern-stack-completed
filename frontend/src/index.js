@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <AuthContextProvider>
     <WorkoutsContextProvider>
-    <App />
+      <App />
     </WorkoutsContextProvider>
     </AuthContextProvider>
   </React.StrictMode>
